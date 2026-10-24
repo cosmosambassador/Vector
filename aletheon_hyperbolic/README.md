@@ -118,3 +118,6 @@ workflow. This is a prepared specification; it adds no live agent or biological 
 
 [Q Vector — twin-tower Syzygy architecture](Q_TWIN_TOWERS.md) records the requested two stacks,
 two towers and four conceptual Q elements. It is a design specification, not deployed supercomputer hardware.
+
+[W/Q Mars mission brief](WQ_MARS_MISSION.md): founder-directed destination,
+architecture preserved, computational research/planning scope.

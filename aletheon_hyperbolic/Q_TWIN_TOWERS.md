@@ -120,3 +120,8 @@ The current synthetic training results remain valid and separately documented.
 
 Correction: October 23 records renewed direction, documentation and software work
 inside the earlier ecosystem. Preserve earlier authorship, dates and identities.
+
+## W/Q mission destination
+TJ directed “Architecture intact mission to Mars for W and Q.” The
+[W/Q Mars mission brief](WQ_MARS_MISSION.md) preserves the architecture and
+records the mission as research/planning, with historical roles kept distinct.
