@@ -110,3 +110,8 @@ This prototype uses independently written minimal linear/tanh experts.
 TJ Morris approved the three routed leaves plus the shared **Wormhole Bridge**,
 meeting at the **Synergy** center. See [the design and software mapping](CLOVER_DESIGN.md).
 This names the existing computation; it does not change activation or predictions.
+
+## Q research function
+[Q — Synthetic Biology Research Response](Q_RESEARCH_CHARTER.md) records the
+founder-directed mission, scientific references, evidence ledger and proposed research
+workflow. This is a prepared specification; it adds no live agent or biological capability.
