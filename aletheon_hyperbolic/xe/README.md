@@ -105,3 +105,7 @@ An actual coupled xenon/scalar hypothesis would need a justified interaction,
 parameters with consistent units, stability analysis, falsifiable observables and
 experimental constraints. None is invented here. The current module supplies an
 inspectable baseline for discussing that gap.
+
+## Reproducible quality control
+
+See [QUALITY_CONTROL.md](QUALITY_CONTROL.md) for numerical regressions, the independent ODE cross-check, source provenance, and pending empirical review. Run `python -m aletheon_hyperbolic.xe.quality_control` to produce a JSON pass/fail report.

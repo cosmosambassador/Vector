@@ -21,9 +21,15 @@ class ModeState:
 
 
 def _finite(name, value):
-    if isinstance(value, bool) or not isinstance(value, Real) or not math.isfinite(value):
+    if isinstance(value, bool) or not isinstance(value, Real):
         raise ValueError(f'{name} must be a finite real number')
-    return float(value)
+    try:
+        result = float(value)
+    except (OverflowError, ValueError) as exc:
+        raise ValueError(f'{name} must be a finite real number') from exc
+    if not math.isfinite(result):
+        raise ValueError(f'{name} must be a finite real number')
+    return result
 
 
 def mode_state(k, time, mass_squared=-1.0, amplitude0=1.0, velocity0=0.0):
@@ -48,8 +54,19 @@ def mode_state(k, time, mass_squared=-1.0, amplitude0=1.0, velocity0=0.0):
         if omega2 < 0:
             rate = math.sqrt(-omega2)
             z = rate*time
-            amplitude = a0*math.cosh(z) + v0*math.sinh(z)/rate
-            velocity = a0*rate*math.sinh(z) + v0*math.cosh(z)
+            if abs(z) < 1e-4:
+                # Retain the continuous zero-frequency limit.
+                sinhc = math.sinh(z)/z if z else 1.0
+                amplitude = a0*math.cosh(z) + v0*time*sinhc
+                velocity = a0*rate*math.sinh(z) + v0*math.cosh(z)
+            else:
+                # Avoid subtracting nearly equal cosh/sinh values for decay.
+                growing = 0.5*a0 + 0.5*(v0/rate)
+                decaying = 0.5*a0 - 0.5*(v0/rate)
+                growing = growing*math.exp(z) if growing else 0.0
+                decaying = decaying*math.exp(-z) if decaying else 0.0
+                amplitude = growing + decaying
+                velocity = rate*(growing - decaying)
             regime = 'unstable'
         elif omega2 > 0:
             frequency = math.sqrt(omega2)

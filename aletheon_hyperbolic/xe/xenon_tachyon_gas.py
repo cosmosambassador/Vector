@@ -7,6 +7,7 @@ between those branches is defined or implied.
 import json
 import math
 from dataclasses import asdict
+from decimal import Decimal, localcontext
 from .tachyon_gas import _finite, mode_state
 
 BOLTZMANN_J_PER_K = 1.380649e-23  # Exact SI defining constant, NIST.
@@ -25,10 +26,14 @@ def xenon_ideal_gas(temperature_k, atom_count, volume_m3):
     volume = _finite('volume_m3', volume_m3)
     if min(temperature, count, volume) <= 0:
         raise ValueError('Temperature, atom count and volume must be positive')
-    energy = count*BOLTZMANN_J_PER_K*temperature
-    pressure = energy/volume
-    internal_energy = 1.5*energy
-    if not all(math.isfinite(x) for x in (energy, pressure, internal_energy)):
+    # Extended exponent range prevents intermediate underflow/overflow even
+    # when the final SI results fit in a float. Decimal receives exact floats.
+    with localcontext() as context:
+        context.prec = 50
+        energy = Decimal(count)*Decimal('1.380649e-23')*Decimal(temperature)
+        pressure = float(energy/Decimal(volume))
+        internal_energy = float(Decimal('1.5')*energy)
+    if not all(math.isfinite(x) and x > 0 for x in (pressure, internal_energy)):
         raise ValueError('Gas calculation exceeds numerical range')
     return dict(species='Xe', approximation='dilute monatomic ideal gas',
                 temperature_k=temperature, atom_count=count, volume_m3=volume,

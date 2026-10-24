@@ -30,6 +30,8 @@ jobs:
         run: |
           python -m aletheon_hyperbolic.xe.tachyon_gas
           python -m aletheon_hyperbolic.xe.xenon_tachyon_gas
+      - name: Xe independent numerical quality control
+        run: python -m aletheon_hyperbolic.xe.quality_control
       - name: TriVector saddle math training
         run: python -m aletheon_hyperbolic.math_training
       - name: Wormhole traversal example
