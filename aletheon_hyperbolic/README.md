@@ -144,3 +144,7 @@ saddle-height exercise. Neural training uses explicit equations, not image pixel
 ## BE → DO → HAVE framework
 
 [Air, Water, Earth, Fire and Essence](BE_DO_HAVE_ELEMENTS.md) connect the founder-directed symbolic framework to practical research steps, traceable results and the permission record for the GitHub-to-Hugging-Face workflow.
+
+## Quantum-tornado research connection
+
+[Quantum tornado and vector-flow research](QUANTUM_TORNADO_RESEARCH.md) records the 2024 helium-vortex sources, an explicit circulation-vector proposal and acceptance criteria for a future computation.
