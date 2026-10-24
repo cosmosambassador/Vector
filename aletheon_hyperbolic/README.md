@@ -136,3 +136,7 @@ and a separate classical tachyonic scalar-mode calculation, with no assumed coup
 [Artwork-inspired saddle curriculum and measured results](MATH_TRAINING.md) define
 twelve reference positions, the inner center label 13 and a reproducible three-class
 saddle-height exercise. Neural training uses explicit equations, not image pixels.
+
+## Wormhole geometry
+[Runnable Ellis throat and traversal model](WORMHOLE_MODEL.md) provides a two-sided
+3D embedding and analytic radial light paths, with equations, examples and tests.

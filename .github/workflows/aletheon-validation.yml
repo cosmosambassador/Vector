@@ -32,3 +32,5 @@ jobs:
           python -m aletheon_hyperbolic.xe.xenon_tachyon_gas
       - name: TriVector saddle math training
         run: python -m aletheon_hyperbolic.math_training
+      - name: Wormhole traversal example
+        run: python -m aletheon_hyperbolic.wormhole --samples 5
