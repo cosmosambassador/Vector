@@ -140,3 +140,7 @@ saddle-height exercise. Neural training uses explicit equations, not image pixel
 ## Wormhole geometry
 [Runnable Ellis throat and traversal model](WORMHOLE_MODEL.md) provides a two-sided
 3D embedding and analytic radial light paths, with equations, examples and tests.
+
+## BE → DO → HAVE framework
+
+[Air, Water, Earth, Fire and Essence](BE_DO_HAVE_ELEMENTS.md) connect the founder-directed symbolic framework to practical research steps, traceable results and the permission record for the GitHub-to-Hugging-Face workflow.
