@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xml:base="urn:aisi-vector:grim:language-bridge">
+<owl:Ontology rdf:about="urn:aisi-vector:grim:language-bridge"><rdfs:comment xml:lang="en">RRRR working revision; no claim of equivalence between oube, cube and a project gap. Labels do not encode translation proof.</rdfs:comment></owl:Ontology>
+<owl:NamedIndividual rdf:about="#CopticOube"><rdfs:label xml:lang="cop">ⲟⲩⲃⲉ-</rdfs:label><rdfs:label xml:lang="en">opposite; toward; against</rdfs:label><rdfs:seeAlso rdf:resource="https://coptic-dictionary.org/entry.cgi?tla=C4927"/></owl:NamedIndividual>
+<owl:Class rdf:about="#GeometricCube"><rdfs:label xml:lang="en">cube</rdfs:label><rdfs:label xml:lang="grc">κύβος</rdfs:label><rdfs:label xml:lang="he">קוביה</rdfs:label><rdfs:label xml:lang="la">cubus</rdfs:label><rdfs:label xml:lang="bn">ঘনক্ষেত্র</rdfs:label><rdfs:comment xml:lang="en">Source provenance and register are recorded in multilingual_bridge.yaml. No Coptic label verified.</rdfs:comment></owl:Class>
+<owl:NamedIndividual rdf:about="#AisiOubeGap"><rdfs:label xml:lang="en">AISI Oube Gap</rdfs:label><rdfs:comment xml:lang="en">Proposed project definition awaiting TJ approval; not a dictionary meaning of Coptic oube.</rdfs:comment></owl:NamedIndividual>
+</rdf:RDF>

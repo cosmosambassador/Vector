@@ -53,3 +53,7 @@ Grim names MC-6’s alloy math within AISI Trivector, by TJ Morris’s instructi
 ## Eight Plates: political and economic basics
 
 See EIGHT_PLATES_BASIC.md and records/eight_plates.yaml for AISI Synthetic Super Intelligence terminology, the preserved eight model/plate pairings, shared definitions and a source-aware claim template. This is a research framework, not a demonstrated superintelligence claim or implemented eight-provider network.
+
+## TJTM Grimoire multilingual bridge
+
+Coptic oube, geometrical cube and proposed AISI Oube Gap are separate concepts. Six language tags, explicit source/draft status, Unix CLI and a portable Round Robin prompt are included. See GRIMOIRE_LANGUAGE_BRIDGE.md (in the parent software directory for Space readers). Hugging Face copies are prepared, not uploaded.
