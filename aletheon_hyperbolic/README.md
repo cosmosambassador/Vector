@@ -105,3 +105,8 @@ format, automatic upload or live service is introduced here.
 
 Design reference: [DeepSeekMoE official source](https://github.com/deepseek-ai/DeepSeek-MoE).
 This prototype uses independently written minimal linear/tanh experts.
+
+## Four-leaf clover design
+TJ Morris approved the three routed leaves plus the shared **Wormhole Bridge**,
+meeting at the **Synergy** center. See [the design and software mapping](CLOVER_DESIGN.md).
+This names the existing computation; it does not change activation or predictions.
