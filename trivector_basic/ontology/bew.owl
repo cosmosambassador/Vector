@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xml:base="urn:aisi-vector:bew">
+<owl:Ontology rdf:about="urn:aisi-vector:bew"><rdfs:label xml:lang="en">BEW — Basic English Words</rdfs:label><rdfs:comment xml:lang="en">User-defined plain-language glossary. Descriptions are project explanations, not a comprehensive dictionary or validating schema.</rdfs:comment></owl:Ontology>
+<owl:NamedIndividual rdf:about="#word"><rdfs:label xml:lang="en">word</rdfs:label><rdfs:comment xml:lang="en">A language unit used to express meaning.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meaning"><rdfs:label xml:lang="en">meaning</rdfs:label><rdfs:comment xml:lang="en">What a word or statement expresses in its context.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#source"><rdfs:label xml:lang="en">source</rdfs:label><rdfs:comment xml:lang="en">Where information came from.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#claim"><rdfs:label xml:lang="en">claim</rdfs:label><rdfs:comment xml:lang="en">A statement that can be examined.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#evidence"><rdfs:label xml:lang="en">evidence</rdfs:label><rdfs:comment xml:lang="en">Information used to assess a claim.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#hypothesis"><rdfs:label xml:lang="en">hypothesis</rdfs:label><rdfs:comment xml:lang="en">An explanation or relationship proposed for testing.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#test"><rdfs:label xml:lang="en">test</rdfs:label><rdfs:comment xml:lang="en">A defined check that produces an observable result.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#review"><rdfs:label xml:lang="en">review</rdfs:label><rdfs:comment xml:lang="en">Examining a record and its supporting reasons.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#approval"><rdfs:label xml:lang="en">approval</rdfs:label><rdfs:comment xml:lang="en">Permission from the designated decision-maker.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#unknown"><rdfs:label xml:lang="en">unknown</rdfs:label><rdfs:comment xml:lang="en">Information not established or not available.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#module"><rdfs:label xml:lang="en">module</rdfs:label><rdfs:comment xml:lang="en">A defined software component or task.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#node"><rdfs:label xml:lang="en">node</rdfs:label><rdfs:comment xml:lang="en">A participating model session or service.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#gap"><rdfs:label xml:lang="en">gap</rdfs:label><rdfs:comment xml:lang="en">A separation whose meaning, direction and units must be specified.</rdfs:comment></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cube"><rdfs:label xml:lang="en">cube</rdfs:label><rdfs:comment xml:lang="en">A geometric solid with six square faces.</rdfs:comment></owl:NamedIndividual>
+</rdf:RDF>

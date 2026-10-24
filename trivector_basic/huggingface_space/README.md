@@ -25,3 +25,5 @@ Grim names MC-6’s alloy math within AISI Trivector, by TJ Morris’s instructi
 ## TJTM Grimoire multilingual bridge
 
 Coptic oube, geometrical cube and proposed AISI Oube Gap are separate concepts. Six language tags, explicit source/draft status, Unix CLI and a portable Round Robin prompt are included. See GRIMOIRE_LANGUAGE_BRIDGE.md (in the parent software directory for Space readers). Hugging Face copies are prepared, not uploaded.
+
+RX is included as rx_synthetic_intelligence.yaml. The parent software package contains BASIC_101.md, an offline RX display command, and beginner instructions.

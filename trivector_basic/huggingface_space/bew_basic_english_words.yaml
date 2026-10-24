@@ -1,0 +1,27 @@
+version: 0.1.0
+BEW: Basic English Words
+authority: TJ Morris
+naming_status: user_defined_2026-10-24
+scope: Plain-language layer of AISI / Grim Alloy Math
+companion: 'OWL: Web Ontology Language'
+plain_words:
+  word: A language unit used to express meaning.
+  meaning: What a word or statement expresses in its context.
+  source: Where information came from.
+  claim: A statement that can be examined.
+  evidence: Information used to assess a claim.
+  hypothesis: An explanation or relationship proposed for testing.
+  test: A defined check that produces an observable result.
+  review: Examining a record and its supporting reasons.
+  approval: Permission from the designated decision-maker.
+  unknown: Information not established or not available.
+  module: A defined software component or task.
+  node: A participating model session or service.
+  gap: A separation whose meaning, direction and units must be specified.
+  cube: A geometric solid with six square faces.
+rules:
+- Use the word in a sentence before selecting a translation.
+- Keep dictionary evidence separate from project definitions.
+- Unknown does not mean false or zero.
+- Words alone do not prove scientific claims.
+- No live LLM connection is created by this glossary.

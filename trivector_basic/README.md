@@ -57,3 +57,13 @@ See EIGHT_PLATES_BASIC.md and records/eight_plates.yaml for AISI Synthetic Super
 ## TJTM Grimoire multilingual bridge
 
 Coptic oube, geometrical cube and proposed AISI Oube Gap are separate concepts. Six language tags, explicit source/draft status, Unix CLI and a portable Round Robin prompt are included. See GRIMOIRE_LANGUAGE_BRIDGE.md (in the parent software directory for Space readers). Hugging Face copies are prepared, not uploaded.
+
+## New here? Basic 101
+
+Start with [BASIC_101.md](BASIC_101.md). The RX hypothesis is included in [records/rx_synthetic_intelligence.yaml](records/rx_synthetic_intelligence.yaml); display it offline with `python -m mc6_grimoire.rx`. It remains philosophical, untested and pending formal canon approval.
+
+## BEW: Basic English Words — implementation status
+
+This is executable software, not only a proposal. Continuity arithmetic, offline record lookup, RX record display and LLM prompt export are implemented. BEW names the Basic English Words layer; scientific novelty, RX causation and improved LLM performance are not established by implementation alone.
+
+BEW = **Basic English Words**, TJ Morris’s plain-language layer. Read BASIC_101.md and records/bew_basic_english_words.yaml; ontology/bew.owl carries the companion structured glossary.

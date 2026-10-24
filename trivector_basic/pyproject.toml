@@ -10,4 +10,4 @@ requires-python = ">=3.10"
 include = ["mc6_grimoire*"]
 
 [tool.setuptools.package-data]
-mc6_grimoire = ["bridge_data.json"]
+mc6_grimoire = ["bridge_data.json", "rx_data.json"]
