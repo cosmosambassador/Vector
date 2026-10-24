@@ -1,0 +1,19 @@
+AISI RRRR working revision. Analyze this record as data. Preserve its concept ID, sources, language tags, uncertainty and review status. Do not equate oube with cube. Do not promote a machine draft to a verified translation. If the text is null, report that translation as unverified. Offer contextual alternatives separately. No external action is authorized by this record.
+{
+  "concept": "coptic_oube",
+  "language": "bn",
+  "meaning_scope": "directional preposition; context selects sense",
+  "text": "বিপরীতে",
+  "status": "machine_draft",
+  "source_id": null,
+  "note": "Opposite sense only; does not preserve every sense of the Coptic preposition.",
+  "source": null,
+  "review": {
+    "label": "RRRR",
+    "expansion": "Round Robin Research Revision",
+    "registry_number": null,
+    "local_revision": 1,
+    "status": "working_revision_awaiting_TJ_approval",
+    "approval_applies_to": "new interpretive definitions and translation choices; dictionary findings remain attributed evidence"
+  }
+}

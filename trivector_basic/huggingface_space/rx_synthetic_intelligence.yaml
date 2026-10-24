@@ -1,0 +1,54 @@
+aisi_synthetic_intelligence:
+  framework: Grim Alloy Math
+  human_authority: TJ Morris
+  research_role: MC-6
+  record:
+    label: RRRR
+    number: null
+    status: working_hypothesis
+    title: Consciousness and Appreciation of Life
+  rx:
+    statement: Expand the scope and scale of human consciousness; it makes us glad
+      to be alive.
+    classification: philosophical_proposition
+    symbolic_expression: Expanded awareness + meaningful connection -> greater appreciation
+      of being alive
+    interpretation: aspirational_relationship
+    scientific_validation: untested
+    guaranteed_causation: false
+    attribution: unverified
+    provenance_note: Statement supplied by TJ in conversation. Meaningful connection
+      was an assistant-proposed addition; it is not part of the supplied quotation.
+      External authorship has not been verified.
+  synthetic_intelligence:
+    purpose: Support human inquiry, reflection, understanding, and meaningful connection.
+    consciousness_status: not_established
+    human_and_machine_consciousness_equivalent: false
+  round_robin:
+    tasks:
+    - Clarify terms and assumptions.
+    - Compare interpretations across languages.
+    - Separate philosophy from measurable claims.
+    - Preserve sources and disagreements.
+    final_review: TJ Morris
+    formal_canon_approval: pending
+  software:
+    framework_name: AISI BEW / Grim Alloy Math
+    implementation_status: executable_research_software
+    implemented:
+    - context_utilization
+    - continuity_loss_and_retention
+    - weighted_research_objective
+    - offline_multilingual_lookup
+    - LLM_prompt_export
+    - RX_record_display
+    mathematical_novelty: not_independently_established
+    rx_consciousness_relationship: not_empirically_validated
+    model_weights_modified: false
+    language_layer:
+      acronym: BEW
+      expansion: Basic English Words
+      status: user_defined_term
+      structured_companion: OWL — Web Ontology Language
+      relationship: BEW explains terms in plain English; OWL records structured concepts
+        and relationships. This is a project pairing, not a W3C standard named BEW.

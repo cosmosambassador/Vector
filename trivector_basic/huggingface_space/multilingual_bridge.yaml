@@ -1,0 +1,163 @@
+bridge_version: 0.1.0
+title: TJTM Grimoire — MC-6 Grim Oube / Cube Language Bridge
+human_authority: TJ Morris
+review:
+  label: RRRR
+  expansion: Round Robin Research Revision
+  registry_number: null
+  local_revision: 1
+  status: working_revision_awaiting_TJ_approval
+  approval_applies_to: new interpretive definitions and translation choices; dictionary
+    findings remain attributed evidence
+language_tags:
+  cop: Coptic; source here is Sahidic
+  en: English
+  grc: Ancient Greek
+  he: Hebrew; modern target terminology, not asserted Biblical vocabulary
+  la: Latin
+  bn: Bengali
+sources:
+  coptic:
+    url: https://coptic-dictionary.org/entry.cgi?tla=C4927
+    edition: Coptic Dictionary Online, TLA C4927
+    reuse_note: Lexicon declares CC BY-SA; verify exact version and attribution before
+      substantial reuse.
+  greek:
+    url: https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n60535/
+    edition: LSJ, via Scaife ATLAS
+    reuse_note: Linked source; edition-specific reuse review required for substantial
+      excerpts.
+  latin:
+    url: https://logeion.org/cubus
+    edition: Lewis & Short, via Logeion
+    reuse_note: Linked source; no complete entry reproduced.
+  hebrew:
+    url: https://hebrew-academy.org.il/wp-content/uploads/Dictionary-of-Construction-Terms-English.pdf
+    edition: A Dictionary of Construction Terms, hosted by Academy of the Hebrew Language
+    reuse_note: Linked source; no complete entry reproduced.
+  bengali:
+    url: https://accessibledictionary.gov.bd/inc/inc_en_bn.php?alp=C&page=104
+    edition: Accessible Dictionary, English to Bengali, C page 104
+    reuse_note: Linked source; terms only, no complete entry reproduced.
+concepts:
+  coptic_oube:
+    kind: lexical_entry
+    source_form: ⲟⲩⲃⲉ-
+    transliteration: oube
+    meaning_scope: directional preposition; context selects sense
+    labels:
+      cop:
+        text: ⲟⲩⲃⲉ-
+        status: source_verified
+        source_id: coptic
+        note: null
+      en:
+        text: opposite; toward; against
+        status: source_verified
+        source_id: coptic
+        note: null
+      grc:
+        text: ἀπέναντι
+        status: machine_draft
+        source_id: null
+        note: Opposite-facing sense only; not all senses of oube. Qualified review
+          required.
+      he:
+        text: מול
+        status: machine_draft
+        source_id: null
+        note: Modern Hebrew opposite/facing sense only; not a claimed Biblical equivalence.
+      la:
+        text: contra
+        status: machine_draft
+        source_id: null
+        note: Against/opposite sense only; grammar and context need review.
+      bn:
+        text: বিপরীতে
+        status: machine_draft
+        source_id: null
+        note: Opposite sense only; does not preserve every sense of the Coptic preposition.
+  geometric_cube:
+    kind: geometric_concept
+    meaning_scope: geometrical cube; separate from cubing a number, a die, and a data
+      cube
+    labels:
+      cop:
+        text: null
+        status: unverified
+        source_id: null
+        note: No Coptic cube term verified; do not substitute oube.
+      en:
+        text: cube
+        status: reference_gloss
+        source_id: greek
+        note: null
+      grc:
+        text: κύβος
+        status: source_verified
+        source_id: greek
+        note: null
+      he:
+        text: קוביה
+        status: source_verified
+        source_id: hebrew
+        note: Source spelling retained; modern Hebrew terminology.
+      la:
+        text: cubus
+        status: source_verified
+        source_id: latin
+        note: null
+      bn:
+        text: ঘনক্ষেত্র
+        status: source_verified
+        source_id: bengali
+        note: Source-listed label; qualified mathematical-language review pending.
+  aisi_oube_gap:
+    kind: project_hypothesis
+    meaning_scope: Proposed measured separation between paired boundaries, with coordinates,
+      direction, date and units. Not a dictionary translation of Coptic oube.
+    labels:
+      cop:
+        text: AISI Oube Gap
+        status: project_identifier
+        source_id: null
+        note: Identifier preserved unchanged; localized definition requires review.
+      en:
+        text: AISI Oube Gap
+        status: project_identifier
+        source_id: null
+        note: Identifier preserved unchanged; localized definition requires review.
+      grc:
+        text: AISI Oube Gap
+        status: project_identifier
+        source_id: null
+        note: Identifier preserved unchanged; localized definition requires review.
+      he:
+        text: AISI Oube Gap
+        status: project_identifier
+        source_id: null
+        note: Identifier preserved unchanged; localized definition requires review.
+      la:
+        text: AISI Oube Gap
+        status: project_identifier
+        source_id: null
+        note: Identifier preserved unchanged; localized definition requires review.
+      bn:
+        text: AISI Oube Gap
+        status: project_identifier
+        source_id: null
+        note: Identifier preserved unchanged; localized definition requires review.
+constraints:
+- Do not merge coptic_oube, geometric_cube, and aisi_oube_gap.
+- Do not infer etymology from spelling resemblance.
+- Do not treat multilingual labels as OWL logical equivalence.
+- Leave unknown translations null; never fill missing forms by invention.
+- Preserve language register, exact source spelling, review status and source URL.
+- This is a portable record, not a universal translator or a live connection to any
+  LLM.
+destinations:
+  home: local Unix/Windows Python CLI
+  github: cosmosambassador/Vector, trivector_basic
+  hugging_face: prepared Space files only; upload blocked by missing repository-write
+    scope
+  tjtm_grimoire: GRIMOIRE_LANGUAGE_BRIDGE.md

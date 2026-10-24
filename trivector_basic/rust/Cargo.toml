@@ -1,0 +1,8 @@
+[package]
+name = "aisi-trivector-basic"
+version = "0.1.0"
+edition = "2021"
+license = "LGPL-2.1-only"
+description = "AISI Vector proposed continuity metrics"
+[lib]
+path = "src/lib.rs"

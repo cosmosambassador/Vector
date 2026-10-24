@@ -1,0 +1,39 @@
+version: 0.1.0
+project: BEW Tech Language
+expansion: Basic English Words
+human_authority: TJ Morris
+mission: Make technical knowledge clear across education paths while preserving meaning
+  and sources.
+status: RRRR_working_mission
+formal_canon_approval: pending
+expression_options:
+- id: everyday
+  purpose: Preserve ordinary wording
+- id: technical
+  purpose: Use formal domain terms
+- id: bew
+  purpose: Explain technical meaning with basic English words
+third_option: bew
+source_policy:
+  preserve_original: true
+  preserve_language_tag: true
+  preserve_units_and_limits: true
+  mark_machine_drafts: true
+  unknown_translation: null
+localization:
+  BEW_base_language: en
+  additional_record_languages:
+  - cop
+  - grc
+  - he
+  - la
+  - bn
+  reviewed_coverage: partial; see per-label status
+  all_languages_supported: false
+hosting:
+  github: https://github.com/cosmosambassador/Vector
+  hugging_face: prepared_files_not_uploaded
+implementation:
+  existing: Offline metrics, record lookup, RX display, prompt export, C++ JSON writer
+  expression_option_selector: policy_only_not_implemented
+  human_comprehension_test: pending

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(bew_packet LANGUAGES CXX)
+add_executable(bew_packet bew_packet.cpp)
+target_compile_features(bew_packet PRIVATE cxx_std_17)
+set_target_properties(bew_packet PROPERTIES CXX_EXTENSIONS OFF)

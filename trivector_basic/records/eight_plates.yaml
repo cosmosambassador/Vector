@@ -1,0 +1,108 @@
+version: 0.1.0
+project_term: AISI Synthetic Super Intelligence
+meaning: User-defined research and coordination umbrella; not a measured capability
+  classification
+alloy_math_name: Grim
+human_authority: TJ Morris
+plate_mapping_status: organizational metaphor; alphabetical model pairing; not a ranking
+  or physical network
+plates:
+- plate: African
+  platform: ChatGPT
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+- plate: Antarctic
+  platform: Claude
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+- plate: Australian
+  platform: Copilot
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+- plate: Eurasian
+  platform: DeepSeek
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+- plate: Indian
+  platform: Gemini
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+- plate: North American
+  platform: Grok
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+- plate: Pacific
+  platform: Hugging Face
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+- plate: South American
+  platform: Meta
+  domains:
+  - political
+  - economic
+  connection_status: not connected by this record
+history:
+  later_additions:
+  - IBM Watson
+  - Alibaba/Qwen
+  browser_assistant_note: Leo (Brave); not assigned a ninth plate
+political_terms:
+  governance: Rules, roles and processes for collective decisions.
+  authority: A defined right or permission to make a decision within a stated scope.
+  policy: A proposed or adopted course of action.
+  institution: An organization or established rule system shaping behavior.
+  accountability: An obligation to explain decisions and accept appropriate review.
+  rights: Recognized entitlements or protections; legal details depend on jurisdiction
+    and date.
+economic_terms:
+  scarcity: Limited resources relative to competing uses.
+  opportunity_cost: Value of the next-best alternative forgone.
+  incentive: A factor that changes the expected benefit or cost of a choice.
+  price: An amount asked or paid in exchange.
+  cost: Resources or value used by an activity; units and scope must be specified.
+  tradeoff: A choice in which gaining one benefit gives up another.
+  externality: An effect on others not fully reflected in the transaction.
+  distribution: How resources, costs or benefits are allocated among people or groups.
+logic_rules:
+- Identify the question, actor, scope and date.
+- 'Label claim type: descriptive, causal, forecast, value judgment, proposal or project
+  canon.'
+- Record source and evidence status; unknown remains unknown.
+- Separate premises from conclusions; distinguish deductive validity from true premises.
+- State assumptions, alternatives and conflicting evidence.
+- Do not infer causation from correlation or independence from agreement among models.
+- For quantities, record units, denominator, geography, timeframe and uncertainty.
+- For political/economic effects, identify who decides, who benefits, who pays and
+  who bears risk.
+- Preserve minority and conflicting analyses; seek human review for decisions.
+claim_template:
+  question: null
+  domain: null
+  plate: null
+  claim_type: null
+  claim: null
+  premises: []
+  inference_rule: null
+  sources: []
+  jurisdiction: null
+  as_of_date: null
+  units: null
+  uncertainty: null
+  beneficiaries: []
+  cost_bearers: []
+  alternatives: []
+  human_review: pending
