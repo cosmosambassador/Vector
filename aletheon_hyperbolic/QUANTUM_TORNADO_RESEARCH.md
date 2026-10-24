@@ -46,7 +46,7 @@ A future executable extension can first verify a finite-core velocity field befo
 4. Reject the singular domain and report the chosen finite-core restriction.
 5. Only then specify a wave equation and a measurable target for comparison with provenance-checked experimental data.
 
-These are proposed acceptance criteria. No vortex solver, new test execution, experimental replication, antigravity production, or Xe/helium/scalar coupling is added by this documentation change. Existing modules retain their own validation scope.
+These were the initial proposed acceptance criteria. The subsequent 30 x 30 numerical baseline below implements the circulation checks. Wave propagation and experimental replication remain pending. Existing Xe and wormhole modules retain their own validation scope.
 
 ## Primary sources
 
@@ -58,3 +58,46 @@ Sources inspected on 2026-10-24:
 The paper is the primary scientific reference; the university account supplies institutional context. No data files or third-party source code have been imported.
 
 Related project records: [Xe quality control](xe/QUALITY_CONTROL.md), [wormhole geometry](WORMHOLE_MODEL.md), and [five-element framework](BE_DO_HAVE_ELEMENTS.md).
+
+## Executed 30 x 30 numerical baseline
+
+Follow-up instructions: “Take the anti gravity test on 30x30 test no matter,” then “Over hot ice magnetic fields.”
+
+Run from the repository root:
+
+```sh
+python -m aletheon_hyperbolic.xe.vortex_check
+```
+
+The command checks 30 radii and 30 azimuths (900 sample locations) in the ideal-vortex field and its reversed-circulation counterpart. The sampling grid is an implementation choice; “30 x 30” has not been established as an enclosure dimension or physical unit. The outer circle keeps the separately authorized 30-foot circumference. Illustrative circulation is 1 m²/s, and the excluded core radius is one hundredth of the outer radius. These are numerical choices, not measured material properties.
+
+At each location, reversing circulation reverses the velocity vector and preserves speed. Six closed-contour checks cover three radii and both circulation signs. Midpoint quadrature over 256- and 512-segment polygons must converge toward the specified circulation; the finer absolute error must be below 2e-5 m²/s. The command exits nonzero if its numerical checks fail.
+
+The [recorded numerical report](research_results/vortex_30x30_v1.json) includes settings, aggregate errors and a source hash. It can be regenerated from the command above. The prescribed gravity baseline is -9.80665 m/s² along an upward-positive z axis, assuming equal positive inertial and gravitational mass and no additional force on a test body. This value is an input, not a predicted or measured gravitational response. Fluid velocity is not the trajectory of that body.
+
+**Antigravity assessment: not testable with this model.** A vortex-only calculation supplies no gravitational coupling. Numerical success neither establishes antigravity nor experimentally excludes a specified new hypothesis. The script records zero physical measurements.
+
+### Requested hot-ice and magnetic-field condition
+
+This condition is recorded as pending, with the following material alternatives kept distinct:
+
+| Possible meaning | Established context | Missing inputs for this project |
+| --- | --- | --- |
+| Sodium acetate “hot ice” | Crystallization releases heat | Composition, phase, temperature, geometry and magnetic response |
+| Superionic water ice | High-pressure/high-temperature water phase with mobile hydrogen ions | Pressure, temperature, phase, conductivity and an appropriate material model |
+| Founder-defined symbolic material | A design label | Physical interpretation, if one is intended |
+
+TJ subsequently clarified “Zero” as **magnetic field** through the quantity-selection prompt. The baseline condition is therefore B = (0, 0, 0) tesla, uniformly and independently of time: a field-off control. It does not set gravity or temperature to zero. Any later nonzero-field comparison needs its own field specification. “Over” still needs a defined separation and orientation. No material response, magnetic lift, thermal coupling, or altered gravitational acceleration is computed. The JSON report records the zero-field condition and the unresolved material.
+
+For a later physical force budget, distinguish gravitational force from electromagnetic forces, fluid forces and thermal effects. A credible experiment would require calibrated measurements and appropriate field-off, field-reversed and thermal controls. No laboratory setup or high-pressure apparatus is operated here.
+
+Additional primary institutional references checked 2026-10-24:
+
+- [University of Washington: Supersaturation of Sodium Acetate](https://chem.washington.edu/lecture-demos/supersaturation-sodium-acetate): exothermic crystallization.
+- [Lawrence Livermore National Laboratory: First experimental evidence for superionic ice](https://www.llnl.gov/article/44081/GET): high-pressure water experiments and ionic conductivity.
+
+Material selection remains open to founder clarification. The zero-field control establishes no relationship to CERN magnetic-field reversal.
+
+### Temperature follow-up: option 3
+
+TJ next selected “3,” referring to the temperature option in the preceding quantity prompt. Record **requested T = 0 K** as an idealized target, alongside the existing B = 0 control. No thermal evolution or material state at 0 K is calculated. This selection supplies no phase model for “hot ice” and no evidence of gravitational cancellation. The Xe ideal-gas function requires positive temperature; it is not called with 0 K. The present circulation-only calculation has no temperature-dependent parameters.

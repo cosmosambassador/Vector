@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "grid": [
+    30,
+    30
+  ],
+  "sample_count": 900,
+  "grid_meaning": "30 radii x 30 azimuths; not a 30 ft x 30 ft enclosure",
+  "circumference_m": 9.144,
+  "outer_radius_m": 1.455312799632291,
+  "core_radius_m": 0.01455312799632291,
+  "illustrative_circulation_m2_per_s": 1.0,
+  "maximum_reversal_error_m_per_s": 0.0,
+  "maximum_speed_change_m_per_s": 0.0,
+  "contour_segments": [
+    256,
+    512
+  ],
+  "contour_checks": [
+    {
+      "radius_m": 0.02910625599264582,
+      "circulation_m2_per_s": -1.0,
+      "errors_m2_per_s": [
+        5.020242805242603e-05,
+        1.2550039974579263e-05
+      ],
+      "passed": true
+    },
+    {
+      "radius_m": 0.02910625599264582,
+      "circulation_m2_per_s": 1.0,
+      "errors_m2_per_s": [
+        5.020242805242603e-05,
+        1.2550039974579263e-05
+      ],
+      "passed": true
+    },
+    {
+      "radius_m": 0.7276563998161455,
+      "circulation_m2_per_s": -1.0,
+      "errors_m2_per_s": [
+        5.0202428052648074e-05,
+        1.2550039975023353e-05
+      ],
+      "passed": true
+    },
+    {
+      "radius_m": 0.7276563998161455,
+      "circulation_m2_per_s": 1.0,
+      "errors_m2_per_s": [
+        5.0202428052648074e-05,
+        1.2550039975023353e-05
+      ],
+      "passed": true
+    },
+    {
+      "radius_m": 1.455312799632291,
+      "circulation_m2_per_s": -1.0,
+      "errors_m2_per_s": [
+        5.0202428052648074e-05,
+        1.2550039975023353e-05
+      ],
+      "passed": true
+    },
+    {
+      "radius_m": 1.455312799632291,
+      "circulation_m2_per_s": 1.0,
+      "errors_m2_per_s": [
+        5.0202428052648074e-05,
+        1.2550039975023353e-05
+      ],
+      "passed": true
+    }
+  ],
+  "numerical_checks_passed": true,
+  "prescribed_gravity_baseline": {
+    "upward_axis": "z",
+    "acceleration_m_per_s2": -9.80665,
+    "applicable_to": "positive inertial and gravitational mass, equal ratio",
+    "force_per_mass_n_per_kg": -9.80665,
+    "assumption": "no fluid, electromagnetic or anomalous force on test body"
+  },
+  "antigravity_assessment": {
+    "status": "not testable with this model",
+    "reason": "no gravity-modifying coupling or force law supplied",
+    "physical_measurements": 0,
+    "interpretation": "numerical pass verifies vortex behavior only; it neither proves nor experimentally rules out antigravity"
+  },
+  "source_sha256": "65a580cbaa6854c83f4acf1786a216d5c21988c8afdacb4a8a4fb5f9e77316e1",
+  "requested_conditions": {
+    "material": "hot ice: identity and phase unresolved",
+    "magnetic_field_tesla": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "magnetic_field_scope": "uniform, time-independent zero-field control",
+    "requested_temperature_k": 0.0,
+    "temperature_status": "idealized target only; no thermal model",
+    "status": "B=0 and requested T=0 K recorded; material physics not modeled"
+  }
+}
