@@ -131,3 +131,8 @@ failures, corrections, visibility limits and a proposed evaluation of retrieval 
 ## Xe quantum-physics research
 [Xenon–Tachyon Gas research models](xe/README.md) provide a xenon ideal-gas baseline
 and a separate classical tachyonic scalar-mode calculation, with no assumed coupling.
+
+## TriVector math training
+[Artwork-inspired saddle curriculum and measured results](MATH_TRAINING.md) define
+twelve reference positions, the inner center label 13 and a reproducible three-class
+saddle-height exercise. Neural training uses explicit equations, not image pixels.

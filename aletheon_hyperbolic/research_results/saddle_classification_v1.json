@@ -1,0 +1,305 @@
+{
+  "task": "saddle height classification from x and y",
+  "equation": "z = x*x - y*y",
+  "source": "analytic synthetic data; illustration supplies visual inspiration only",
+  "class_meanings": [
+    "z < -0.1",
+    "-0.1 <= z <= 0.1",
+    "z > 0.1"
+  ],
+  "train_samples": 1200,
+  "test_samples": 1200,
+  "train_seed": 1001,
+  "test_seed": 1002,
+  "epochs": 200,
+  "learning_rate": 0.01,
+  "optimizer": "Adam",
+  "train_class_counts": [
+    452,
+    301,
+    447
+  ],
+  "test_class_counts": [
+    477,
+    278,
+    445
+  ],
+  "train_sector_counts": [
+    92,
+    98,
+    100,
+    106,
+    113,
+    95,
+    104,
+    90,
+    106,
+    92,
+    93,
+    111
+  ],
+  "test_sector_counts": [
+    89,
+    96,
+    94,
+    111,
+    87,
+    119,
+    91,
+    97,
+    122,
+    97,
+    101,
+    96
+  ],
+  "majority_test_accuracy": 0.3975,
+  "reference_geometry": [
+    {
+      "label": 1,
+      "x": 1.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "label": 2,
+      "x": 0.8660254037844387,
+      "y": 0.49999999999999994,
+      "z": 0.5000000000000002
+    },
+    {
+      "label": 3,
+      "x": 0.5000000000000001,
+      "y": 0.8660254037844386,
+      "z": -0.4999999999999998
+    },
+    {
+      "label": 4,
+      "x": 6.123233995736766e-17,
+      "y": 1.0,
+      "z": -1.0
+    },
+    {
+      "label": 5,
+      "x": -0.4999999999999998,
+      "y": 0.8660254037844387,
+      "z": -0.5000000000000003
+    },
+    {
+      "label": 6,
+      "x": -0.8660254037844387,
+      "y": 0.49999999999999994,
+      "z": 0.5000000000000002
+    },
+    {
+      "label": 7,
+      "x": -1.0,
+      "y": 1.2246467991473532e-16,
+      "z": 1.0
+    },
+    {
+      "label": 8,
+      "x": -0.8660254037844388,
+      "y": -0.4999999999999997,
+      "z": 0.5000000000000007
+    },
+    {
+      "label": 9,
+      "x": -0.5000000000000004,
+      "y": -0.8660254037844384,
+      "z": -0.4999999999999991
+    },
+    {
+      "label": 10,
+      "x": -1.8369701987210297e-16,
+      "y": -1.0,
+      "z": -1.0
+    },
+    {
+      "label": 11,
+      "x": 0.5000000000000001,
+      "y": -0.8660254037844386,
+      "z": -0.4999999999999998
+    },
+    {
+      "label": 12,
+      "x": 0.8660254037844384,
+      "y": -0.5000000000000004,
+      "z": 0.4999999999999991
+    },
+    {
+      "label": 13,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  ],
+  "results": [
+    {
+      "model": "original",
+      "initialization_seed": 42,
+      "parameters": 99,
+      "loss": 0.22747080028057098,
+      "accuracy": 0.9275000095367432,
+      "confusion_true_rows_predicted_columns": [
+        [
+          453,
+          24,
+          0
+        ],
+        [
+          24,
+          231,
+          23
+        ],
+        [
+          0,
+          16,
+          429
+        ]
+      ]
+    },
+    {
+      "model": "sparse",
+      "initialization_seed": 42,
+      "parameters": 72,
+      "loss": 0.1997661143541336,
+      "accuracy": 0.9558333158493042,
+      "confusion_true_rows_predicted_columns": [
+        [
+          461,
+          16,
+          0
+        ],
+        [
+          12,
+          251,
+          15
+        ],
+        [
+          0,
+          10,
+          435
+        ]
+      ],
+      "expert_selection_counts": [
+        628,
+        729,
+        1043
+      ]
+    },
+    {
+      "model": "original",
+      "initialization_seed": 44,
+      "parameters": 99,
+      "loss": 0.22210118174552917,
+      "accuracy": 0.9241666793823242,
+      "confusion_true_rows_predicted_columns": [
+        [
+          454,
+          23,
+          0
+        ],
+        [
+          26,
+          228,
+          24
+        ],
+        [
+          1,
+          17,
+          427
+        ]
+      ]
+    },
+    {
+      "model": "sparse",
+      "initialization_seed": 44,
+      "parameters": 72,
+      "loss": 0.18371543288230896,
+      "accuracy": 0.9541666507720947,
+      "confusion_true_rows_predicted_columns": [
+        [
+          466,
+          11,
+          0
+        ],
+        [
+          17,
+          245,
+          16
+        ],
+        [
+          0,
+          11,
+          434
+        ]
+      ],
+      "expert_selection_counts": [
+        858,
+        681,
+        861
+      ]
+    },
+    {
+      "model": "original",
+      "initialization_seed": 45,
+      "parameters": 99,
+      "loss": 0.20340725779533386,
+      "accuracy": 0.9283333420753479,
+      "confusion_true_rows_predicted_columns": [
+        [
+          455,
+          22,
+          0
+        ],
+        [
+          24,
+          229,
+          25
+        ],
+        [
+          0,
+          15,
+          430
+        ]
+      ]
+    },
+    {
+      "model": "sparse",
+      "initialization_seed": 45,
+      "parameters": 72,
+      "loss": 0.20616357028484344,
+      "accuracy": 0.9449999928474426,
+      "confusion_true_rows_predicted_columns": [
+        [
+          461,
+          16,
+          0
+        ],
+        [
+          27,
+          233,
+          18
+        ],
+        [
+          0,
+          5,
+          440
+        ]
+      ],
+      "expert_selection_counts": [
+        836,
+        745,
+        819
+      ]
+    }
+  ],
+  "checkpoint_saved": false,
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "device": "cpu",
+    "threads": 1
+  },
+  "source_sha256": "262959b440d7c94d6ade170a2a69c438cdd46391476bf50f7e0191fa0a183e7d"
+}
