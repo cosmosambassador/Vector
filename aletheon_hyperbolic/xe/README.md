@@ -109,3 +109,7 @@ inspectable baseline for discussing that gap.
 ## Reproducible quality control
 
 See [QUALITY_CONTROL.md](QUALITY_CONTROL.md) for numerical regressions, the independent ODE cross-check, source provenance, and pending empirical review. Run `python -m aletheon_hyperbolic.xe.quality_control` to produce a JSON pass/fail report.
+
+## Quantum zero-point baseline
+
+[One-mode zero-point energy](ZERO_POINT_ENERGY.md) adds a separate stable quantum harmonic-oscillator calculation, E0 = h f / 2. Its frequency is specified explicitly; it is not inferred from the Xe gas, vortex, unstable scalar modes or project geometry.

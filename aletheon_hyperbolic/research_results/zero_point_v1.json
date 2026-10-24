@@ -1,0 +1,12 @@
+{
+  "model": "one stable quantum harmonic oscillator",
+  "frequency_hz": 1000000000.0,
+  "ground_state_energy_j": 3.313035075e-25,
+  "energy_reference": "minimum of the specified quadratic potential",
+  "state": "ground state; idealized zero-temperature limit",
+  "magnetic_field": "not a parameter of this uncoupled oscillator",
+  "couplings_to_xe_vortex_gravity": "not defined",
+  "energy_extraction": "not modeled",
+  "physical_measurements": 0,
+  "source_sha256": "619dd8f7e77f64593637a284ec7f7a9e2d937b1ec5e3313e2697c73c8fb31b90"
+}

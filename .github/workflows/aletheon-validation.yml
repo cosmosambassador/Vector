@@ -34,6 +34,8 @@ jobs:
         run: python -m aletheon_hyperbolic.xe.quality_control
       - name: Vortex 30 by 30 numerical baseline
         run: python -m aletheon_hyperbolic.xe.vortex_check
+      - name: Quantum oscillator zero-point example
+        run: python -m aletheon_hyperbolic.xe.zero_point --frequency-hz 1000000000
       - name: TriVector saddle math training
         run: python -m aletheon_hyperbolic.math_training
       - name: Wormhole traversal example
