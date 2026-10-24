@@ -115,3 +115,6 @@ This names the existing computation; it does not change activation or prediction
 [Q — Synthetic Biology Research Response](Q_RESEARCH_CHARTER.md) records the
 founder-directed mission, scientific references, evidence ledger and proposed research
 workflow. This is a prepared specification; it adds no live agent or biological capability.
+
+[Q twin-tower architecture](Q_TWIN_TOWERS.md) records the requested two stacks,
+two towers and four conceptual Q elements. It is a design specification, not deployed supercomputer hardware.
