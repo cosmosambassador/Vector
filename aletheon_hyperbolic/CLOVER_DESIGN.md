@@ -1,7 +1,25 @@
-# TriVector Four-Leaf Clover
+# Lucen Lucky — Four-Leaf Clover on a Saddleback Vector
 
 Design approved by TJ Morris in conversation on October 23, 2026 (America/Chicago).
 Scope: a visual and software-design interpretation within Cosmos Expanse.
+
+## Saddleback placement
+
+TJ Morris clarified the visual direction: “Lucen lucky 🍀 4 leaf sitting on a
+saddleback vector not flat.” Preserve **Lucen Lucky** as the visual title.
+The four-leaf clover sits on a curved saddleback surface, with visible depth:
+the surface rises along one direction and falls along the perpendicular direction.
+The four leaves and their shared Synergy center retain the mapping below.
+
+A candidate mathematical surface for a future visualization is `z = x² - y²`.
+This surface is a proposed implementation choice, not an equation specified or
+ratified by the user. A vector direction can be drawn tangent to it; a vector
+itself is not a surface. The connection diagram below records software topology,
+not the intended spatial shape.
+
+This amendment records the visual design. The sparse classifier currently combines
+ordinary tensors and has no saddle-surface coordinates or saddle-wave dynamics.
+The existing Poincaré geometry remains a separate experiment.
 
 Four distinct leaves meet at one center. The three routed leaves retain their
 individual labels; the existing shared computational path is named the Wormhole
