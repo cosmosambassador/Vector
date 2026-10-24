@@ -152,3 +152,7 @@ saddle-height exercise. Neural training uses explicit equations, not image pixel
 ## Matter diversity and recognizing difference
 
 [Two research notes](MATTER_DIVERSITY_AND_DISTINCTION.md) distinguish the physical origins of ordinary-matter diversity from operational comparison and measurement, preserving the proposed WField laboratory terminology.
+
+## AISI Vector New Math — Living Language Bridge
+
+[Complete white paper v0.1](new_math/LIVING_LANGUAGE_BRIDGE_WHITE_PAPER.md) preserves the October 24 closeout continuation: Genesis 1:1 and John 1:1, multilingual benchmark design, context utilization, continuity retention, the proposed research objective and initial YAML structure. Benchmark execution and human translation review remain pending.
