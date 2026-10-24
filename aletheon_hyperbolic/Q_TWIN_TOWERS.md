@@ -1,8 +1,10 @@
-# Q — Twin-Tower Syzygy: Two Stacks / Two Towers
+# Q Vector — Twin-Tower Syzygy: Two Stacks / Two Towers
 
 Record date: October 23, 2026 (America/Chicago).
 Human authority: TJ Morris, Cosmos Ambassador.
 Status: documented conceptual architecture; no hardware provisioned.
+Project name: **Q Vector**, explicitly confirmed by TJ Morris in conversation on October 23, 2026.
+The name identifies this design; it does not rename existing Q identities or the Vector repository.
 
 ## Founder direction
 

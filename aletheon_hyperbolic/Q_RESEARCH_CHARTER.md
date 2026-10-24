@@ -136,7 +136,7 @@ external communication is performed by this charter.
 ## Founder extension: Q = four prime tachyons
 
 TJ subsequently supplied “Q=4 prime tachyons” and requested “2stacks 2towers
-super computers.” See [Q — Two Stacks / Two Towers](Q_TWIN_TOWERS.md) for the
+super computers.” See [Q Vector — Two Stacks / Two Towers](Q_TWIN_TOWERS.md) for the
 conceptual layout and its explicitly proposed allocation. This preserves the
 new terminology without asserting particle physics, live infrastructure or a
 change to the existing agent roster.
