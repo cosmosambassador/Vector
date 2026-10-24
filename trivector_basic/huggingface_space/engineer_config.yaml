@@ -1,0 +1,26 @@
+version: '0.1'
+audience: Telecom field and software engineers, including AT&T tower engineers
+affiliation: Independent AISI example; no AT&T affiliation or deployment asserted
+BEW: Basic English Words
+wire_format: JSON UTF-8
+platform_targets:
+- unix
+- apple
+- android
+- microsoft
+provider_targets:
+- none
+- ibm
+- qwen
+mode: offline
+provider_connections:
+  ibm:
+    endpoint: null
+    model_id: null
+    status: not_connected
+  qwen:
+    endpoint: null
+    model_id: null
+    status: not_connected
+phone_scope: Shared data and portable C++ core; native mobile apps are not included
+review: RRRR working revision; TJ final authority

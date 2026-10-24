@@ -67,3 +67,7 @@ Start with [BASIC_101.md](BASIC_101.md). The RX hypothesis is included in [recor
 This is executable software, not only a proposal. Continuity arithmetic, offline record lookup, RX record display and LLM prompt export are implemented. BEW names the Basic English Words layer; scientific novelty, RX causation and improved LLM performance are not established by implementation alone.
 
 BEW = **Basic English Words**, TJ Morris’s plain-language layer. Read BASIC_101.md and records/bew_basic_english_words.yaml; ontology/bew.owl carries the companion structured glossary.
+
+## BEW engineer packet: Python / JSON / C++ / YAML / Mermaid
+
+See [engineer_basic/README.md](engineer_basic/README.md). Includes a C++17 JSON writer and Python packet checker/prompt export, plus Apple, Android, Unix, Microsoft, IBM and Qwen integration notes for telecom engineers. The demo is offline; native phone apps and provider/tower adapters are not built.

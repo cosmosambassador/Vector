@@ -13,3 +13,7 @@
 ## RX and BEW Basic 101
 
 RX offline display executed. RX YAML matches packaged JSON and prepared Space copy. BEW YAML parses and companion OWL parses as XML. The existing 21 Python tests pass. BEW is the user-defined Basic English Words layer; no W3C standard status or new scientific validation is asserted.
+
+## BEW engineer packet
+
+29 Python tests passed, including 8 packet-contract tests. C++17 compiled on Linux with GCC 13.3.0 using -Wall -Wextra -Werror. Its JSON passed the Python contract for all 12 platform/provider metadata combinations. Three invalid C++ argument cases returned exit code 2. Python CLI prompt export executed. YAML config parsed. These are Linux host tests, not native Apple/Android/Windows builds, live IBM/Qwen calls or AT&T network tests.

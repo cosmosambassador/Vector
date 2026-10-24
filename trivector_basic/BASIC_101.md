@@ -77,7 +77,7 @@ python -m unittest discover -s tests -v
 
 The RX command prints the saved philosophical record; it does not measure consciousness. The bridge command displays a term and its review status; it does not call an AI. The prompt command prepares text you can copy into an LLM. The last command runs the included tests.
 
-**Expected results:** RX reports an untested philosophical proposition; the English oube record contains opposite/toward/against; the Bengali prompt retains its machine-draft status; the unit suite currently contains 21 tests.
+**Expected results:** RX reports an untested philosophical proposition; the English oube record contains opposite/toward/against; the Bengali prompt retains its machine-draft status; the unit suite currently contains 29 tests.
 
 If Python is missing, the commands will not work until Python is installed in your chosen environment. If you see `No module named mc6_grimoire`, check that the terminal is in trivector_basic and that you are using the intended Python environment.
 
@@ -109,3 +109,7 @@ RRRR numbering is not allocated automatically. TJ retains approval authority. Gi
 For example, BEW says “a node is one participating model session or service.” The OWL glossary preserves the word and explanation as a named record. It does not connect that service automatically.
 
 The package includes `records/bew_basic_english_words.yaml` and `ontology/bew.owl`. These preserve the naming correction: BEW was intended, not a claim that every implemented equation is newly discovered mathematics. The wider AISI Vector New Math research history is preserved separately.
+
+## For engineers
+
+Read engineer_basic/README.md for the compiled C++17 JSON writer and Python checker. It includes Unix, Apple, Android, Microsoft, IBM and Qwen paths. Local Linux execution is tested; platform and provider labels do not prove a live connection.
