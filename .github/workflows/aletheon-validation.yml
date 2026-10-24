@@ -24,3 +24,5 @@ jobs:
         run: |
           python -m aletheon_hyperbolic.train --epochs 30 --checkpoint "$RUNNER_TEMP/aletheon.pt"
           python -m aletheon_hyperbolic.evaluate "$RUNNER_TEMP/aletheon.pt"
+      - name: Compare sparse prototype with original classifier
+        run: python -m aletheon_hyperbolic.compare_moe

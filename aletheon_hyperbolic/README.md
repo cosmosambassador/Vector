@@ -52,3 +52,56 @@ weights and test caches; CI keeps checkpoint files in runner temporary storage.
 Historical identity and source-chronology questions remain as marked in
 `CONTINUITY_CROSSWALK.md`. Test success does not resolve provenance or constitute
 founder approval, merge approval, or permission to publish model artifacts.
+
+## TriVector sparse-expert prototype
+`TriVectorMoE` is a separate classical PyTorch experiment inspired by the general
+shared/routed expert pattern, not a reproduction of DeepSeek or a pretrained LLM.
+It has three routed experts labeled `(-1, 0, +1)` plus a shared computational path.
+The labels identify components; they do not impose signed weights, consciousness,
+quantum states, or physical saddle-wave behavior.
+
+For each input row, the router selects two experts by default. Their selected
+scores are normalized with softmax; only selected rows are sent to each expert.
+The output is a classifier applied to:
+
+`shared(x) + sum(selected_weight[i] * expert[i](x))`
+
+```python
+import torch
+from aletheon_hyperbolic.moe import TriVectorMoE
+model = TriVectorMoE()
+logits = model(torch.randn(5, 8))
+```
+
+Run `python -m aletheon_hyperbolic.compare_moe` from the repository root for a
+three-seed comparison with the original classifier. Both receive the same 240
+training samples, 1,000 independent held-out samples, Adam learning rate 0.01 and
+30 epochs. There is no load-balancing loss or claim of specialist meaning; the
+report includes selection counts to expose unequal routing. This initial test
+set is now a development diagnostic, not an untouched final benchmark.
+
+Initial CPU results (Python 3.12.14, torch 2.14.1+cpu):
+
+| Initialization seed | Original classifier accuracy | Sparse prototype accuracy |
+| --- | --- | --- |
+| 42 | 86.4% | 76.9% |
+| 44 | 88.6% | 82.1% |
+| 45 | 87.8% | 76.5% |
+| Mean | 87.6% | 78.5% |
+
+The majority baseline is 34.6%. The sparse prototype has 186 total parameters
+versus 195 in the original model. It uses 150 parameters in active components per
+row (router, shared path, two experts, head), but this is not a measured runtime
+or memory saving: dispatch overhead matters. The original classifier scored
+higher in all three trials. These unequal architectures are an initial smoke
+comparison, not evidence of an MoE advantage. No task-beneficial synergy has yet
+been demonstrated, and the sparse prototype does not use the hyperbolic layer.
+
+The full suite locally passed 64 tests, including selected-only expert dispatch,
+weighted output equivalence, router gradients, input-dependent selection and
+configuration rejection. CI independently verifies the pushed code. The existing
+`load_checkpoint` is for the original classifier only; no sparse checkpoint
+format, automatic upload or live service is introduced here.
+
+Design reference: [DeepSeekMoE official source](https://github.com/deepseek-ai/DeepSeek-MoE).
+This prototype uses independently written minimal linear/tanh experts.
