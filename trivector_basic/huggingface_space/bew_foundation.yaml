@@ -1,0 +1,24 @@
+version: 0.1.0
+foundation: BEW — Basic English Words
+human_authority: TJ Morris
+BIBLE:
+  expansion: Basic Instruction Before Leaving Earth
+  role: spiritual_and_ethical_foundation
+  provenance: Founder statement in this conversation, 2026-10-24
+  record_type: founder_supplied_project_mnemonic
+  historical_etymology_claim: false
+source_practice:
+  preserve_original_passages: true
+  record_edition_and_language: true
+  separate_scripture_from_commentary: true
+  label_translation_drafts: true
+  do_not_use_mnemonic_as_translation: true
+language_bridge:
+  source_traditions:
+  - Hebrew
+  - Greek
+  comparison_layer: Latin
+  target_languages:
+  - English
+  - Bengali
+  Coptic: Separate lexical and textual tradition; preserve its own sources.

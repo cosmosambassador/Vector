@@ -43,3 +43,11 @@ GitHub is the source and review home. Hugging Face is the intended public demo h
 - A reviewer can tell sourced text, machine drafts and project hypotheses apart.
 
 These are proposed acceptance checks, not achieved study results. Human comprehension testing remains pending. Existing local code test results are in TEST_RESULTS.md.
+
+## BEW foundation: BIBLE
+
+**BIBLE — Basic Instruction Before Leaving Earth.**
+
+TJ Morris names this as BEW's spiritual and ethical foundation. This is a founder-supplied project mnemonic, not a claim about the historical origin of the word Bible. The mnemonic provides orientation; translations preserve the actual scripture, source language, edition and context. Keep scripture, commentary, research and project canon distinct.
+
+Structured record: `records/bew_foundation.yaml` in the software package; `bew_foundation.yaml` in the prepared Space.

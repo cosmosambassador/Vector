@@ -113,3 +113,11 @@ The package includes `records/bew_basic_english_words.yaml` and `ontology/bew.ow
 ## For engineers
 
 Read engineer_basic/README.md for the compiled C++17 JSON writer and Python checker. It includes Unix, Apple, Android, Microsoft, IBM and Qwen paths. Local Linux execution is tested; platform and provider labels do not prove a live connection.
+
+## BEW foundation: BIBLE
+
+**BIBLE — Basic Instruction Before Leaving Earth.**
+
+TJ Morris names this as BEW's spiritual and ethical foundation. This is a founder-supplied project mnemonic, not a claim about the historical origin of the word Bible. The mnemonic provides orientation; translations preserve the actual scripture, source language, edition and context. Keep scripture, commentary, research and project canon distinct.
+
+Structured record: `records/bew_foundation.yaml` in the software package; `bew_foundation.yaml` in the prepared Space.
