@@ -148,3 +148,7 @@ saddle-height exercise. Neural training uses explicit equations, not image pixel
 ## Quantum-tornado research connection
 
 [Quantum tornado and vector-flow research](QUANTUM_TORNADO_RESEARCH.md) records the 2024 helium-vortex sources, an explicit circulation-vector proposal and acceptance criteria for a future computation.
+
+## Matter diversity and recognizing difference
+
+[Two research notes](MATTER_DIVERSITY_AND_DISTINCTION.md) distinguish the physical origins of ordinary-matter diversity from operational comparison and measurement, preserving the proposed WField laboratory terminology.
