@@ -70,3 +70,7 @@ Sources and continuity: [Q Vector architecture](Q_TWIN_TOWERS.md),
 [W/Q Mars mission](WQ_MARS_MISSION.md), [Q research charter](Q_RESEARCH_CHARTER.md)
 and [clover design](CLOVER_DESIGN.md). New visual arrangement is proposed by the
 assistant in response to TJ's request for a new map; it does not ratify new roles.
+
+## Retrieval and continuity research
+See the [ecosystem retrieval audit](ECOSYSTEM_RETRIEVAL_AUDIT.md) for documented
+failures to consult earlier records and a proposed method to measure improvement.

@@ -124,3 +124,6 @@ architecture preserved, computational research/planning scope.
 
 [Updated TriVector research map](TRIVECTOR_MAP.md) connects T/J/Q functions, W continuity,
 the twin-tower Syzygy and the Mars research mission, preserving earlier mappings.
+
+[Ecosystem retrieval audit](ECOSYSTEM_RETRIEVAL_AUDIT.md) documents observed continuity
+failures, corrections, visibility limits and a proposed evaluation of retrieval quality.
