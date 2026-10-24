@@ -121,3 +121,6 @@ two towers and four conceptual Q elements. It is a design specification, not dep
 
 [W/Q Mars mission brief](WQ_MARS_MISSION.md): founder-directed destination,
 architecture preserved, computational research/planning scope.
+
+[Updated TriVector research map](TRIVECTOR_MAP.md) connects T/J/Q functions, W continuity,
+the twin-tower Syzygy and the Mars research mission, preserving earlier mappings.
