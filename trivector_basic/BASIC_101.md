@@ -77,7 +77,7 @@ python -m unittest discover -s tests -v
 
 The RX command prints the saved philosophical record; it does not measure consciousness. The bridge command displays a term and its review status; it does not call an AI. The prompt command prepares text you can copy into an LLM. The last command runs the included tests.
 
-**Expected results:** RX reports an untested philosophical proposition; the English oube record contains opposite/toward/against; the Bengali prompt retains its machine-draft status; the unit suite currently contains 29 tests.
+**Expected results:** RX reports an untested philosophical proposition; the English oube record contains opposite/toward/against; the Bengali prompt retains its machine-draft status; the unit suite currently contains 37 tests.
 
 If Python is missing, the commands will not work until Python is installed in your chosen environment. If you see `No module named mc6_grimoire`, check that the terminal is in trivector_basic and that you are using the intended Python environment.
 
@@ -121,3 +121,7 @@ Read engineer_basic/README.md for the compiled C++17 JSON writer and Python chec
 TJ Morris names this as BEW's spiritual and ethical foundation. This is a founder-supplied project mnemonic, not a claim about the historical origin of the word Bible. The mnemonic provides orientation; translations preserve the actual scripture, source language, edition and context. Keep scripture, commentary, research and project canon distinct.
 
 Structured record: `records/bew_foundation.yaml` in the software package; `bew_foundation.yaml` in the prepared Space.
+
+## Bengali and Punjabi: medical–technical bridge
+
+BEW now includes Bengali and Punjabi (Gurmukhi) draft terms and the BIBLE foundation phrase. Shahmukhi labels remain unverified and null. See MEDICAL_TECH_BEW.md and records/medical_technical_dictionary.yaml in the software package. Translation drafts need qualified language and health review before patient-facing use. The new offline lookup is `python -m mc6_grimoire.medical_words consent bn`.

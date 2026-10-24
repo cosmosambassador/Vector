@@ -22,3 +22,25 @@ language_bridge:
   - English
   - Bengali
   Coptic: Separate lexical and textual tradition; preserve its own sources.
+translation_drafts:
+  en:
+    text: Basic Instruction Before Leaving Earth
+    status: project_plain_english
+    reviewer: null
+    source_url: null
+  bn:
+    text: পৃথিবী ছাড়ার আগে মৌলিক নির্দেশনা
+    status: machine_draft
+    reviewer: null
+    source_url: null
+  pa-Guru:
+    text: ਧਰਤੀ ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਮੁੱਢਲੀਆਂ ਹਦਾਇਤਾਂ
+    status: machine_draft
+    reviewer: null
+    source_url: null
+  pa-Arab:
+    text: null
+    status: unverified
+    reviewer: null
+    source_url: null
+translation_note: English BIBLE mnemonic; translations do not reproduce the acronym.

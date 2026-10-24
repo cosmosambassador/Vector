@@ -1,0 +1,299 @@
+version: 0.1.0
+project: BEW medical–technical language bridge
+human_authority: TJ Morris
+review:
+  label: RRRR
+  global_number: null
+  status: working_revision
+  qualified_language_review: pending
+  clinical_use_review: pending
+language_variants:
+  en:
+    name: English
+    script: Latin
+    direction: ltr
+  bn:
+    name: Bengali / বাংলা
+    script: Bengali
+    direction: ltr
+  pa-Guru:
+    name: Punjabi / ਪੰਜਾਬੀ
+    script: Gurmukhi
+    direction: ltr
+  pa-Arab:
+    name: Punjabi, Shahmukhi
+    script: Arabic-derived Shahmukhi
+    direction: rtl
+    translation_status: pending; labels remain null
+foundation:
+  concept: TJ’s BIBLE project mnemonic
+  classification: spiritual_project_foundation_not_medical_guidance
+  english_acronym: BIBLE
+  acronym_policy: The English letters are not asserted to form the same acronym in
+    Bengali or Punjabi.
+  labels:
+    en:
+      text: Basic Instruction Before Leaving Earth
+      status: project_plain_english
+      reviewer: null
+      source_url: null
+    bn:
+      text: পৃথিবী ছাড়ার আগে মৌলিক নির্দেশনা
+      status: machine_draft
+      reviewer: null
+      source_url: null
+    pa-Guru:
+      text: ਧਰਤੀ ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਮੁੱਢਲੀਆਂ ਹਦਾਇਤਾਂ
+      status: machine_draft
+      reviewer: null
+      source_url: null
+    pa-Arab:
+      text: null
+      status: unverified
+      reviewer: null
+      source_url: null
+terms:
+  care:
+    definition_en: Help that supports a person’s health or well-being.
+    labels:
+      en:
+        text: care
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: যত্ন
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਦੇਖਭਾਲ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  medical_care:
+    definition_en: Health care from a qualified health professional.
+    labels:
+      en:
+        text: medical care
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: চিকিৎসাসেবা
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਡਾਕਟਰੀ ਦੇਖਭਾਲ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  medicine_drug:
+    definition_en: A substance used to prevent or treat illness; not the whole field
+      of medicine.
+    labels:
+      en:
+        text: medicine — drug
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: ওষুধ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਦਵਾਈ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  evidence:
+    definition_en: Information used to assess whether a claim is supported.
+    labels:
+      en:
+        text: evidence
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: প্রমাণ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਸਬੂਤ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  symptom:
+    definition_en: A change a person feels or notices that may relate to illness.
+    labels:
+      en:
+        text: symptom
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: উপসর্গ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਲੱਛਣ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  signal:
+    definition_en: A change that carries information; it needs a defined source and
+      context.
+    labels:
+      en:
+        text: signal
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: সংকেত
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਸੰਕੇਤ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  measurement:
+    definition_en: A recorded amount, with a method, unit and uncertainty where relevant.
+    labels:
+      en:
+        text: measurement
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: পরিমাপ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਮਾਪ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  consent:
+    definition_en: A person’s informed agreement to a stated action.
+    labels:
+      en:
+        text: consent
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: সম্মতি
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਸਹਿਮਤੀ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+  integrative_medicine:
+    definition_en: An evidence-based approach that combines biomedical care with appropriate
+      traditional or complementary practices.
+    labels:
+      en:
+        text: integrative medicine
+        status: project_plain_english
+        reviewer: null
+        source_url: null
+      bn:
+        text: সমন্বিত চিকিৎসা
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Guru:
+        text: ਏਕੀਕ੍ਰਿਤ ਚਿਕਿਤਸਾ
+        status: machine_draft
+        reviewer: null
+        source_url: null
+      pa-Arab:
+        text: null
+        status: unverified
+        reviewer: null
+        source_url: null
+    evidence_kind: terminology_not_treatment_claim
+reference_resources:
+- id: who_tcim
+  url: https://www.who.int/Health-Topics/Traditional-Complementary-and-Integrative-Medicine
+  purpose: Conceptual reference for evidence-based integrative medicine; not a source
+    validating our translations.
+- id: nhs_bn
+  url: https://www.nhsinform.scot/translations/languages/bengali
+  purpose: Published Bengali health information for reviewer reference; not copied
+    here.
+- id: nhs_pa
+  url: https://www.nhsinform.scot/translations/languages/punjabi
+  purpose: Published Punjabi health information for reviewer reference; not copied
+    here.
+- id: uk_interpreting
+  url: https://www.gov.uk/guidance/language-interpretation-migrant-health-guide
+  purpose: Health translation and interpreting practice reference.
+rules:
+- Keep drug, medical care, spiritual foundation, radio signal and biological measurement
+  separate.
+- Do not infer a diagnosis from a symptom or a technical signal.
+- Traditional use does not by itself establish treatment safety or effectiveness.
+- Preserve original words, language, script, units, sources and uncertainty.
+- Machine drafts require qualified review before patient-facing or clinical use.
+- Never equate spiritual language with medical evidence.
+- No drug dose, treatment recommendation, patient record or model call is included.

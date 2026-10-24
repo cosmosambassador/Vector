@@ -77,3 +77,7 @@ See [engineer_basic/README.md](engineer_basic/README.md). Includes a C++17 JSON 
 **Basic English Words. Real technical meaning. More people able to take part.**
 
 BEW is our third expression option beside everyday and formal technical wording. It connects learning across GED, certificates, field experience and college while keeping original terms, sources and uncertainty. Read [MISSION_BEW.md](MISSION_BEW.md). The options are a recorded design policy; a selectable translation interface is not yet implemented.
+
+## Bengali and Punjabi: medical–technical bridge
+
+BEW now includes Bengali and Punjabi (Gurmukhi) draft terms and the BIBLE foundation phrase. Shahmukhi labels remain unverified and null. See MEDICAL_TECH_BEW.md and records/medical_technical_dictionary.yaml in the software package. Translation drafts need qualified language and health review before patient-facing use. The new offline lookup is `python -m mc6_grimoire.medical_words consent bn`.

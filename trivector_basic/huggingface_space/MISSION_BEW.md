@@ -51,3 +51,7 @@ These are proposed acceptance checks, not achieved study results. Human comprehe
 TJ Morris names this as BEW's spiritual and ethical foundation. This is a founder-supplied project mnemonic, not a claim about the historical origin of the word Bible. The mnemonic provides orientation; translations preserve the actual scripture, source language, edition and context. Keep scripture, commentary, research and project canon distinct.
 
 Structured record: `records/bew_foundation.yaml` in the software package; `bew_foundation.yaml` in the prepared Space.
+
+## Bengali and Punjabi: medical–technical bridge
+
+BEW now includes Bengali and Punjabi (Gurmukhi) draft terms and the BIBLE foundation phrase. Shahmukhi labels remain unverified and null. See MEDICAL_TECH_BEW.md and records/medical_technical_dictionary.yaml in the software package. Translation drafts need qualified language and health review before patient-facing use. The new offline lookup is `python -m mc6_grimoire.medical_words consent bn`.

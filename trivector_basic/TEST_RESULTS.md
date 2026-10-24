@@ -17,3 +17,9 @@ RX offline display executed. RX YAML matches packaged JSON and prepared Space co
 ## BEW engineer packet
 
 29 Python tests passed, including 8 packet-contract tests. C++17 compiled on Linux with GCC 13.3.0 using -Wall -Wextra -Werror. Its JSON passed the Python contract for all 12 platform/provider metadata combinations. Three invalid C++ argument cases returned exit code 2. Python CLI prompt export executed. YAML config parsed. These are Linux host tests, not native Apple/Android/Windows builds, live IBM/Qwen calls or AT&T network tests.
+
+## Bengali/Punjabi and root CI correction
+
+37 local Python package tests pass (29 prior + 8 language-record tests). Bengali/Punjabi lookup executed; YAML master matches packaged JSON. Language accuracy and clinical review remain pending.
+
+GitHub run 40103295545 failed while collecting tests because mc6_grimoire was not on the root test import path. Root pytest.ini now adds trivector_basic to pythonpath without skipping tests. Remote full-suite verification is pending at commit preparation. Local PyTorch/pytest are unavailable; local package checks used unittest.
