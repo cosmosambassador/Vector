@@ -71,3 +71,9 @@ BEW = **Basic English Words**, TJ Morris’s plain-language layer. Read BASIC_10
 ## BEW engineer packet: Python / JSON / C++ / YAML / Mermaid
 
 See [engineer_basic/README.md](engineer_basic/README.md). Includes a C++17 JSON writer and Python packet checker/prompt export, plus Apple, Android, Unix, Microsoft, IBM and Qwen integration notes for telecom engineers. The demo is offline; native phone apps and provider/tower adapters are not built.
+
+## BEW Tech Language mission
+
+**Basic English Words. Real technical meaning. More people able to take part.**
+
+BEW is our third expression option beside everyday and formal technical wording. It connects learning across GED, certificates, field experience and college while keeping original terms, sources and uncertainty. Read [MISSION_BEW.md](MISSION_BEW.md). The options are a recorded design policy; a selectable translation interface is not yet implemented.

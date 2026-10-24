@@ -27,3 +27,9 @@ Grim names MC-6’s alloy math within AISI Trivector, by TJ Morris’s instructi
 Coptic oube, geometrical cube and proposed AISI Oube Gap are separate concepts. Six language tags, explicit source/draft status, Unix CLI and a portable Round Robin prompt are included. See GRIMOIRE_LANGUAGE_BRIDGE.md (in the parent software directory for Space readers). Hugging Face copies are prepared, not uploaded.
 
 RX is included as rx_synthetic_intelligence.yaml. The parent software package contains BASIC_101.md, an offline RX display command, and beginner instructions.
+
+## BEW Tech Language mission
+
+**Basic English Words. Real technical meaning. More people able to take part.**
+
+BEW is our third expression option beside everyday and formal technical wording. It connects learning across GED, certificates, field experience and college while keeping original terms, sources and uncertainty. Read [MISSION_BEW.md](MISSION_BEW.md). The options are a recorded design policy; a selectable translation interface is not yet implemented.
