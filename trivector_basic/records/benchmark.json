@@ -1,0 +1,52 @@
+{
+  "version": "0.1.0",
+  "human_authority": "TJ Morris",
+  "research_watch": "Aletheon / MC-6",
+  "passages": [
+    "Genesis 1:1",
+    "John 1:1"
+  ],
+  "source_languages": [
+    "Hebrew",
+    "Greek"
+  ],
+  "comparison_language": "Latin",
+  "targets": [
+    "en-US",
+    "bn"
+  ],
+  "routes": [
+    "direct",
+    "through_English"
+  ],
+  "source_records": [],
+  "required_source_fields": [
+    "language",
+    "edition",
+    "exact_text",
+    "source_url",
+    "reuse_terms",
+    "text_hash"
+  ],
+  "rubric": [
+    "clause_preservation",
+    "grammatical_fidelity",
+    "key_term_consistency",
+    "disclosed_interpretation",
+    "Bengali_naturalness",
+    "provenance_retention"
+  ],
+  "evaluation": {
+    "context_tokens": null,
+    "effective_context_capacity": null,
+    "rho": null,
+    "continuity_checklist": [],
+    "L": null,
+    "Q": null,
+    "semantic_discrepancy": null,
+    "cost": null
+  },
+  "benchmark_executed": false,
+  "speech_reviewed": false,
+  "publication_authorized": false
+}

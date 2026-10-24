@@ -1,0 +1,36 @@
+glossary_version: "0.1.0"
+terms:
+  Unix:
+    definition: >-
+      A family and tradition of operating systems built around files,
+      processes, users, permissions, and small tools that can work together.
+    distinction: >-
+      UNIX is also a certification and trademark designation.
+      Unix-like describes similar systems without asserting certification.
+    examples:
+      - "Linux: Unix-like; not automatically UNIX-certified"
+      - "macOS: Unix-based; certification depends on the specific release"
+    role_in_mc6: "Possible host operating-system environment"
+    is_programming_language: false
+    is_ai_model: false
+    required_for_this_python_package: false
+  shell:
+    definition: "A program that reads commands and starts other programs."
+    example: "Bash"
+  YAML:
+    definition: "A human-readable data format used here for glossary and configuration records."
+  Mermaid:
+    definition: "A text-based diagram notation used to explain software relationships."
+  OWL:
+    definition: "Web Ontology Language; used here to describe research concepts and relationships."
+runtime:
+  minimum_python: "3.10"
+  supports: ["Unix-like environments", "Windows with Python"]
+  unix_required: false
+  pkgsrc_integration: "not implemented"
+
+project_naming:
+  alloy_math_name: Grim
+  belongs_to: "MC-6 / AISI Trivector"
+  naming_status: "user authorized 2026-10-24"
+  research_status: "proposed mathematics; not validated physics"

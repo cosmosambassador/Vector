@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:av="urn:aisi-vector:mc6:grimoire#" xml:base="urn:aisi-vector:mc6:grimoire">
+ <owl:Ontology rdf:about="urn:aisi-vector:mc6:grimoire"><owl:versionInfo>0.1.0 draft</owl:versionInfo><rdfs:comment>Proposed research vocabulary. Namespace is a local identifier, not a hosted service. Classification does not validate claims.</rdfs:comment></owl:Ontology>
+ <owl:Class rdf:about="#ResearchRecord"/>
+ <owl:Class rdf:about="#SourceRecord"/>
+ <owl:Class rdf:about="#Claim"/>
+ <owl:Class rdf:about="#CanonClaim"><rdfs:subClassOf rdf:resource="#Claim"/></owl:Class>
+ <owl:Class rdf:about="#Hypothesis"><rdfs:subClassOf rdf:resource="#Claim"/></owl:Class>
+ <owl:Class rdf:about="#MeasuredResult"><rdfs:subClassOf rdf:resource="#Claim"/></owl:Class>
+ <owl:Class rdf:about="#HumanAuthority"/>
+ <owl:Class rdf:about="#AssistantRole"/>
+ <owl:ObjectProperty rdf:about="#hasSource"><rdfs:domain rdf:resource="#ResearchRecord"/><rdfs:range rdf:resource="#SourceRecord"/></owl:ObjectProperty>
+ <owl:ObjectProperty rdf:about="#reviewedBy"><rdfs:range rdf:resource="#HumanAuthority"/></owl:ObjectProperty>
+ <owl:AnnotationProperty rdf:about="#status"/>
+ <owl:NamedIndividual rdf:about="#TJ_Morris"><rdf:type rdf:resource="#HumanAuthority"/><rdfs:label>TJ Morris, Cosmos Ambassador</rdfs:label></owl:NamedIndividual>
+ <owl:NamedIndividual rdf:about="#MC6"><rdf:type rdf:resource="#AssistantRole"/><rdfs:label>Aletheon / MC-6 research watch</rdfs:label><rdfs:comment>Conversational role; this file creates no autonomous agent.</rdfs:comment></owl:NamedIndividual>
+ <owl:NamedIndividual rdf:about="#LivingLanguageBridge"><rdf:type rdf:resource="#Hypothesis"/><av:status>proposed; translation benchmark unexecuted</av:status></owl:NamedIndividual>
+ <owl:NamedIndividual rdf:about="#GrimAlloyMath"><rdf:type rdf:resource="#ResearchRecord"/><rdfs:label>Grim Alloy Math</rdfs:label><av:status>name authorized by TJ Morris on 2026-10-24; mathematical efficacy unvalidated</av:status></owl:NamedIndividual>
+</rdf:RDF>
