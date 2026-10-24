@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "python": "3.12.14",
+  "scope": "software verification and ideal-gas reference consistency",
+  "affiliation": "independent project; no CERN approval or commissioning",
+  "scalar_absolute_tolerance": 1e-07,
+  "time": 1.0,
+  "steps": [
+    100,
+    200
+  ],
+  "scalar_cases": [
+    {
+      "k": 0.0,
+      "mass_squared": -1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 1.277784544839733e-10,
+      "fine_error": 8.011591390300055e-12,
+      "passed": true
+    },
+    {
+      "k": 0.0,
+      "mass_squared": -1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 6.038575195432827e-11,
+      "fine_error": 3.782030244536827e-12,
+      "passed": true
+    },
+    {
+      "k": 0.5,
+      "mass_squared": -1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 4.8937076613242425e-11,
+      "fine_error": 3.0666580386196074e-12,
+      "passed": true
+    },
+    {
+      "k": 0.5,
+      "mass_squared": -1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 3.3882119332417915e-11,
+      "fine_error": 2.1208035327902053e-12,
+      "passed": true
+    },
+    {
+      "k": 1.0,
+      "mass_squared": -1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 0.0,
+      "fine_error": 0.0,
+      "passed": true
+    },
+    {
+      "k": 1.0,
+      "mass_squared": -1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 4.996003610813204e-16,
+      "fine_error": 5.551115123125783e-16,
+      "passed": true
+    },
+    {
+      "k": 2.0,
+      "mass_squared": -1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 1.285058143229989e-09,
+      "fine_error": 8.022840725097069e-11,
+      "passed": true
+    },
+    {
+      "k": 2.0,
+      "mass_squared": -1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 9.982889515036675e-10,
+      "fine_error": 6.263289886732082e-11,
+      "passed": true
+    },
+    {
+      "k": 0.0,
+      "mass_squared": 1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 6.974565369688435e-11,
+      "fine_error": 4.370392936436929e-12,
+      "passed": true
+    },
+    {
+      "k": 0.0,
+      "mass_squared": 1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 5.28488364182067e-11,
+      "fine_error": 3.2938096694579144e-12,
+      "passed": true
+    },
+    {
+      "k": 0.5,
+      "mass_squared": 1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 1.3031031809163096e-10,
+      "fine_error": 8.163691944673701e-12,
+      "passed": true
+    },
+    {
+      "k": 0.5,
+      "mass_squared": 1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 7.972683624402066e-11,
+      "fine_error": 4.9645842992163125e-12,
+      "passed": true
+    },
+    {
+      "k": 1.0,
+      "mass_squared": 1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 4.6473797032930975e-10,
+      "fine_error": 2.9074992413669065e-11,
+      "passed": true
+    },
+    {
+      "k": 1.0,
+      "mass_squared": 1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 2.9180213800827914e-10,
+      "fine_error": 1.8329893158863797e-11,
+      "passed": true
+    },
+    {
+      "k": 2.0,
+      "mass_squared": 1.0,
+      "amplitude0": 1.0,
+      "velocity0": 0.0,
+      "coarse_error": 6.276075659172875e-09,
+      "fine_error": 3.970805906305941e-10,
+      "passed": true
+    },
+    {
+      "k": 2.0,
+      "mass_squared": 1.0,
+      "amplitude0": 0.3,
+      "velocity0": -0.7,
+      "coarse_error": 4.485406809862091e-09,
+      "fine_error": 2.8063504298181385e-10,
+      "passed": true
+    }
+  ],
+  "xenon_reference": {
+    "source": "https://janaf.nist.gov/tables/Xe-001.html",
+    "temperature_k": 300.0,
+    "cp_j_per_mol_k": 20.786,
+    "computed_cp_j_per_mol_k": 20.786156545384074,
+    "absolute_tolerance": 0.0005,
+    "passed": true
+  },
+  "source_sha256": {
+    "tachyon_gas.py": "3ef9a5ed719041105e5e62ee3fc358c9d323b04589416fc5a11e9506cc3b4dcf",
+    "xenon_tachyon_gas.py": "2a8da4cb3fd90c29d676b10ceecf39318ccc5964dd9ac41ff01062055f0e94ea",
+    "quality_control.py": "7165bd02bf8bb224780e4b59695eb09bcf1deb05c01fae4cd6983a93a8cba97e"
+  },
+  "passed": true,
+  "pending": [
+    "real Xe measurements and equation-of-state validation",
+    "blind or held-out experimental evaluation",
+    "defined Xe/scalar coupling and physical evidence",
+    "independent scientific and maintainer review"
+  ]
+}

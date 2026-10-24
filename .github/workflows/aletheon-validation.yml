@@ -1,0 +1,42 @@
+name: Aletheon CPU validation
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install pytest==9.1.1
+      - name: Tests
+        run: python -m pytest -q
+      - name: Train and evaluate synthetic smoke task
+        run: |
+          python -m aletheon_hyperbolic.train --epochs 30 --checkpoint "$RUNNER_TEMP/aletheon.pt"
+          python -m aletheon_hyperbolic.evaluate "$RUNNER_TEMP/aletheon.pt"
+      - name: Compare sparse prototype with original classifier
+        run: python -m aletheon_hyperbolic.compare_moe
+      - name: Xe research examples
+        run: |
+          python -m aletheon_hyperbolic.xe.tachyon_gas
+          python -m aletheon_hyperbolic.xe.xenon_tachyon_gas
+      - name: Xe independent numerical quality control
+        run: python -m aletheon_hyperbolic.xe.quality_control
+      - name: Vortex 30 by 30 numerical baseline
+        run: python -m aletheon_hyperbolic.xe.vortex_check
+      - name: Quantum oscillator zero-point example
+        run: python -m aletheon_hyperbolic.xe.zero_point --frequency-hz 1000000000
+      - name: TriVector saddle math training
+        run: python -m aletheon_hyperbolic.math_training
+      - name: Wormhole traversal example
+        run: python -m aletheon_hyperbolic.wormhole --samples 5
