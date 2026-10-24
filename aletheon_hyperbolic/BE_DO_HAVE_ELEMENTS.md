@@ -81,3 +81,28 @@ Follow-up founder wording: “Five fingers five eyes five elements vs 33 inches.
 | 33 inches | Length quantity | 33 × 2.54 = 83.82 cm exactly. The object, axis and relationship to the five-part groups remain unspecified |
 
 Three groups of five contain 15 entries if every entry is counted separately. If fingers, eyes and elements are three corresponding views of the same five positions, there are five positions instead. Neither interpretation establishes an equation with a length. A geometric relationship requires a defined object and an explicit mapping; no assignment of 33 inches to a body, structure or physical mechanism is made here.
+
+## Fixed 30-foot circumference
+
+Founder clarification: “Circumference 60,” followed by “30 feet no matter distance or speed or direction.” TJ then authorized recording the proposed fixed-circumference interpretation with “Do it.” The current design value is **30 feet around**. The earlier 60 is retained here as a superseded value with unspecified units; 33 inches remains an unassigned dimension. It has not been established as a height.
+
+For the proposed geometric model, define C as the perimeter of the chosen cross-section measured in the model's own local frame:
+
+```text
+C = 30 ft = 9.144 m
+C(distance traveled, speed, direction) = 30 ft
+```
+
+This is a stipulated design constraint: translation and rotation preserve the modeled cross-section, with no motion-dependent deformation included. It does not equate circumference with travel distance or impose a speed. A physical realization would require a specified structure, measurement procedure and dynamics. Measurements in other reference frames are outside this specification.
+
+If the cross-section is circular:
+
+| Quantity | Definition | Value |
+| --- | --- | --- |
+| Circumference | C | 30 ft |
+| Diameter | C / pi | approximately 9.549297 ft |
+| Radius | C / (2 pi) | approximately 4.774648 ft |
+
+The circumference alone does not require a circular cross-section or determine its shape, height, surface area or volume. The diameter and radius above apply only under the circular assumption. No relationship to the five symbolic positions is assigned.
+
+Validation for this documentation change: checked the feet-to-meters conversion and circular calculations. No physical measurement or simulation execution is claimed.
