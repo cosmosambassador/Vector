@@ -127,3 +127,7 @@ the twin-tower Syzygy and the Mars research mission, preserving earlier mappings
 
 [Ecosystem retrieval audit](ECOSYSTEM_RETRIEVAL_AUDIT.md) documents observed continuity
 failures, corrections, visibility limits and a proposed evaluation of retrieval quality.
+
+## Xe quantum-physics research
+[Xenon–Tachyon Gas research models](xe/README.md) provide a xenon ideal-gas baseline
+and a separate classical tachyonic scalar-mode calculation, with no assumed coupling.
