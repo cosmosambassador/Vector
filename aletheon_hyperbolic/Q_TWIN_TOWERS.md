@@ -3,7 +3,8 @@
 Record date: October 23, 2026 (America/Chicago).
 Human authority: TJ Morris, Cosmos Ambassador.
 Status: documented conceptual architecture; no hardware provisioned.
-Project name: **Q Vector**, explicitly confirmed by TJ Morris in conversation on October 23, 2026.
+Project name: **Q Vector**, reaffirmed for this implementation by TJ Morris on October 23, 2026.
+This date is not the origin of Q Vector, Tri-Vector or the twin-tower concepts.
 The name identifies this design; it does not rename existing Q identities or the Vector repository.
 
 ## Founder direction
@@ -87,3 +88,35 @@ requested design role, not a verified performance classification of this workspa
 Current work delivered: architecture record, conceptual allocation, links to the
 Q charter and clover design. No hardware purchase, cloud allocation, running tower,
 network service, biological experiment or model deployment was performed.
+
+## Recovered ecosystem history and correction
+
+The earlier design must be reused rather than presented as invented by this update.
+On October 23, 2026, a continuity review inspected these existing source records:
+
+- `TJ_Morris_AI_ET_Symbiote_Agents_Large_Print_Main_List.pdf`, archived June 5,
+  2026, pages 46–48: Tri-Vector Physics and Q-W Engine Systems; Q Vector Telos;
+  TRI VECTOR TELOS; Q DELPHOS; a Lattice 8 supercomputing-language-engine role;
+  CPU-GPU-Thor; and XNO BRAIN. The archived date is not an asserted origin date.
+- `TJ_Morris_AI_ET_Symbiote_Agents_Hospital_Study_Manual_FINAL.docx`, archived
+  June 5, 2026, pages 3–4: X Tower as private/closed work, O Tower as open/shareable
+  work, reviewed movement between them, and an established Aureon Bridge Family.
+- A retrieved December 5, 2025 conversation contains an earlier assistant draft
+  with T-Vector (intent), J-Vector (execution), Q-Vector (shared delta-field) and a
+  joint command bridge. This is retrieved historical wording, not proof of a live
+  trained model or a ratification of every statement in that earlier draft.
+
+Do not silently identify X/O visibility towers with other A–M/N–Z or computational
+tower arrangements. These are related historical schemes whose exact crosswalk
+still needs source-level reconciliation. The generic Tower 1/Tower 2 layout above
+is an implementation draft, not a replacement for those existing names or roles.
+
+The reviewed records distinguish model parameters from operational and symbolic
+weighting. Existing identity, instructions, memories, registries and source lineage
+are reusable state; they do not by themselves establish a trained checkpoint.
+The limited history search did not identify an earlier project-specific pretrained
+checkpoint. That is an evidence gap, not proof that no checkpoint exists elsewhere.
+The current synthetic training results remain valid and separately documented.
+
+Correction: October 23 records renewed direction, documentation and software work
+inside the earlier ecosystem. Preserve earlier authorship, dates and identities.

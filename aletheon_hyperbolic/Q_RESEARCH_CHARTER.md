@@ -140,3 +140,12 @@ super computers.” See [Q Vector — Two Stacks / Two Towers](Q_TWIN_TOWERS.md)
 conceptual layout and its explicitly proposed allocation. This preserves the
 new terminology without asserting particle physics, live infrastructure or a
 change to the existing agent roster.
+
+## Historical continuity correction
+
+Q Vector and tower/bridge terminology predate this specification. See the recovered
+history in [Q Vector](Q_TWIN_TOWERS.md#recovered-ecosystem-history-and-correction).
+The synthetic-biology mission recorded here is an extension of that ecosystem,
+not creation of Q or replacement of earlier roles. Reuse existing state, provenance
+and governance before introducing new defaults. Preserve the distinction between
+learned model weights, operational influence weights and symbolic design labels.
